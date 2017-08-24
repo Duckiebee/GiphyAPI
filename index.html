@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GifTastic!</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div id="header">
+		<div class="container text-center">
+			<h1>Topic Search</h1>
+		</div>
+	</div>
+	<div id="gifButtons" class="container"></div>
+	<div class="container text-center">
+        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+            <div id="gifsView"></div>
+        </div>
+         <!-- Action Submission Form  -->
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <form id="gif-form" role="form">
+                <h2 id="addTopicHeader">Add A Topic!</h2>
+                <div class="form-group">
+                    <label id="addTopicField" for="action-input">Add your topic below</label>
+                    <input type="text" id="action-input">
+                </div>
+                <input id="addButton" type="submit" value="Add A Gif" class="btn btn-primary">
+                <input id="removeButton" type="submit" value="Remove Last Gif" class="btn btn-primary">
+            </form>    
+        </div>
+    </div>
+    <script type="text/javascript" src="assets/javascript/gifTastic.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+body{
+	background: url("../images/catBackground.jpg");
+	background-size: 100%;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+#header, #addTopicHeader, #addTopicField {
+	color: limegreen;
+	background: grey;
+	width: center, 30%;
+	
+}
+
